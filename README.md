@@ -1,4 +1,5 @@
-<p align="center"><img src="https://github.com/TiagoPaulaSilva/RubyWaves/blob/main/Assets/RubyColerPalette.jpg" width="100%" height="1%"></p>
+<img src="https://github.com/TiagoPaulaSilva/RubyWaves/blob/main/Assets/RubyColerPalette.jpg" alt="RubyPalette" width="100%" style="height:5px;"/>
+
 
 # RubyWaves
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/RubyWaves/blob/main/Assets/FingerWaves.jpg" width="50%" height="50%"></p>
