@@ -2,4 +2,4 @@
 
 
 # RubyWaves
-<p align="center"><img src="https://github.com/TiagoPaulaSilva/RubyWaves/blob/main/Assets/FingerWaves.jpg" width="50%" height="50%"></p>
+<p align="center"><img src="https://github.com/TiagoPaulaSilva/RubyWaves/blob/main/Assets/FingerWaves.jpg" width=80%" height="80%"></p>
