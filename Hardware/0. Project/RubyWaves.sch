@@ -11457,96 +11457,6 @@ Source: www.rsonline.de .. SMBJ12/C/15/C/24/C/30/C/5.0/C/7.5/C Voltage Suppresso
 </deviceset>
 </devicesets>
 </library>
-<library name="SamacSys_Parts">
-<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SOT95P275X135-6N" urn="urn:adsk.eagle:footprint:32843333/1">
-<description>&lt;b&gt;SOT-23-6&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
-<smd name="2" x="-1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
-<smd name="3" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
-<smd name="4" x="1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
-<smd name="5" x="1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
-<smd name="6" x="1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.1" y1="1.8" x2="2.1" y2="1.8" width="0.05" layer="51"/>
-<wire x1="2.1" y1="1.8" x2="2.1" y2="-1.8" width="0.05" layer="51"/>
-<wire x1="2.1" y1="-1.8" x2="-2.1" y2="-1.8" width="0.05" layer="51"/>
-<wire x1="-2.1" y1="-1.8" x2="-2.1" y2="1.8" width="0.05" layer="51"/>
-<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.1" layer="51"/>
-<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="0.5" x2="0.15" y2="1.45" width="0.1" layer="51"/>
-<wire x1="-0.3" y1="1.45" x2="0.3" y2="1.45" width="0.2" layer="21"/>
-<wire x1="0.3" y1="1.45" x2="0.3" y2="-1.45" width="0.2" layer="21"/>
-<wire x1="0.3" y1="-1.45" x2="-0.3" y2="-1.45" width="0.2" layer="21"/>
-<wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
-<wire x1="-1.85" y1="1.6" x2="-0.65" y2="1.6" width="0.2" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT95P275X135-6N" urn="urn:adsk.eagle:package:32843301/2" type="model">
-<description>&lt;b&gt;SOT-23-6&lt;/b&gt;&lt;br&gt;</description>
-<packageinstances>
-<packageinstance name="SOT95P275X135-6N"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="S-8261ACMMD-G4MT2U">
-<wire x1="-19.05" y1="11.43" x2="16.51" y2="11.43" width="0.254" layer="94"/>
-<wire x1="16.51" y1="-38.1" x2="16.51" y2="11.43" width="0.254" layer="94"/>
-<wire x1="16.51" y1="-38.1" x2="-19.05" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="-19.05" y1="11.43" x2="-19.05" y2="-38.1" width="0.254" layer="94"/>
-<text x="-19.05" y="16.51" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="-19.05" y="13.97" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="DO" x="21.59" y="-16.51" length="middle" rot="R180"/>
-<pin name="VM" x="-24.13" y="-34.29" length="middle"/>
-<pin name="CO" x="21.59" y="-34.29" length="middle" rot="R180"/>
-<pin name="VSS" x="21.59" y="-7.62" length="middle" rot="R180"/>
-<pin name="VDD" x="21.59" y="8.89" length="middle" rot="R180"/>
-<pin name="DP" x="-24.13" y="1.27" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="S-8261ACMMD-G4MT2U" prefix="U">
-<description>&lt;b&gt;Battery Battery Protection IC Lithium Ion/Polymer SOT-23-6&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/S-8261ACMMD-G4MT2U.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="S-8261ACMMD-G4MT2U" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT95P275X135-6N">
-<connects>
-<connect gate="G$1" pin="CO" pad="3"/>
-<connect gate="G$1" pin="DO" pad="1"/>
-<connect gate="G$1" pin="DP" pad="4"/>
-<connect gate="G$1" pin="VDD" pad="5"/>
-<connect gate="G$1" pin="VM" pad="2"/>
-<connect gate="G$1" pin="VSS" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32843301/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Battery Battery Protection IC Lithium Ion/Polymer SOT-23-6" constant="no"/>
-<attribute name="HEIGHT" value="1.35mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="ABLIC Inc." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="S-8261ACMMD-G4MT2U" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="628-S8261ACMMDG4MT2G" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=628-S8261ACMMDG4MT2G" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="adafruit">
 <packages>
 <package name="SOT23-5L" urn="urn:adsk.eagle:footprint:6240078/1">
@@ -11719,99 +11629,6 @@ http://www.ladyada.net/library/pcb/eaglelibrary.html</description>
 </package3dinstances>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SI2374DS">
-<packages>
-<package name="SOT-23(TO-236)" urn="urn:adsk.eagle:footprint:32844853/1">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<text x="-1.90628125" y="1.90628125" size="1.27085" layer="25">&gt;NAME</text>
-<text x="-1.90641875" y="-3.17736875" size="1.27095" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.228634375" y1="0.711309375" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.71258125" y1="-1.297909375" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.169859375" y1="-1.29701875" x2="-0.7112" y2="-0.7112" layer="51"/>
-<smd name="3" x="0" y="1.306" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.306" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.306" dx="1" dy="1.4" layer="1"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT-23(TO-236)" urn="urn:adsk.eagle:package:32844852/2" type="model">
-<packageinstances>
-<packageinstance name="SOT-23(TO-236)"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="N-CHANNEL">
-<pin name="G" x="-3.81" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<text x="1.397" y="3.556" size="0.8128" layer="93">D</text>
-<text x="1.397" y="-4.318" size="0.8128" layer="93">S</text>
-<text x="-2.286" y="-1.778" size="0.8128" layer="93">G</text>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.159" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="2.159" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.159" x2="0.5334" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.81" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="-2.159" x2="3.81" y2="-0.127" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
-<circle x="2.54" y="2.159" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="-2.159" radius="0.127" width="0.4064" layer="94"/>
-<text x="5.588" y="0.762" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.588" y="-1.778" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.397" y="3.556" size="0.8128" layer="93">D</text>
-<text x="1.397" y="-4.318" size="0.8128" layer="93">S</text>
-<text x="-2.286" y="-1.778" size="0.8128" layer="93">G</text>
-<rectangle x1="-0.254" y1="-2.794" x2="0.508" y2="-1.27" layer="94"/>
-<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.794" layer="94"/>
-<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="3.81" y="0.508"/>
-<vertex x="3.302" y="-0.254"/>
-<vertex x="4.318" y="-0.254"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="0.635" y="0"/>
-<vertex x="1.905" y="-0.508"/>
-<vertex x="1.905" y="0.508"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SI2374DS" prefix="Q">
-<description> &lt;a href="https://snapeda.com/parts/AO3400/Alpha%20%26/view-part/?ref=eda"&gt;Check prices&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="N-CHANNEL" x="-5.08" y="0"/>
-</gates>
-<devices>
-<device name="SOT23" package="SOT-23(TO-236)">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32844852/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="SI2374DS" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -12218,7 +12035,6 @@ http://www.ladyada.net/library/pcb/eaglelibrary.html</description>
 <groups>
 <schematic_group name="MICROCONTROLLER" titleSize="3.81"/>
 <schematic_group name="BATTERY_CHARGING_MANAGER1" layer="95"/>
-<schematic_group name="BATTERY_PROTECTOR1" layer="95"/>
 <schematic_group name="BATTERY_MONITOR1" layer="95"/>
 <schematic_group name="BOOST_CONVERTER_(DC-DC_STEP_UP)"/>
 </groups>
@@ -12321,18 +12137,6 @@ http://www.ladyada.net/library/pcb/eaglelibrary.html</description>
 <part name="R7" library="My-RLC" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="4k7">
 <attribute name="PARTNO" value="*"/>
 </part>
-<part name="U6" library="SamacSys_Parts" deviceset="S-8261ACMMD-G4MT2U" device="" package3d_urn="urn:adsk.eagle:package:32843301/2" value="S-8261ACMMD-G4MT2U">
-<attribute name="PARTNO" value="*"/>
-</part>
-<part name="R8" library="My-RLC" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="2k">
-<attribute name="PARTNO" value="*"/>
-</part>
-<part name="R9" library="My-RLC" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="470R">
-<attribute name="PARTNO" value="*"/>
-</part>
-<part name="C20" library="My-RLC" deviceset="C_" device="0603" package3d_urn="urn:adsk.eagle:package:23494015/2" value="100nF">
-<attribute name="PARTNO" value="*"/>
-</part>
 <part name="SUPPLY6" library="My-Supply" deviceset="5V" device="" value="VUSB"/>
 <part name="R15" library="My-RLC" deviceset="R_" device="0603" package3d_urn="urn:adsk.eagle:package:23494030/2" value="1M">
 <attribute name="PARTNO" value="*"/>
@@ -12341,12 +12145,6 @@ http://www.ladyada.net/library/pcb/eaglelibrary.html</description>
 <attribute name="PARTNO" value="*"/>
 </part>
 <part name="CN2" library="Battery" deviceset="BATTERY" device="JST-2" package3d_urn="urn:adsk.eagle:package:32835973/2" value="Lithium Ion Polymer">
-<attribute name="PARTNO" value="*"/>
-</part>
-<part name="Q2" library="SI2374DS" deviceset="SI2374DS" device="SOT23" package3d_urn="urn:adsk.eagle:package:32844852/2" value="SI2374DS">
-<attribute name="PARTNO" value="*"/>
-</part>
-<part name="Q3" library="SI2374DS" deviceset="SI2374DS" device="SOT23" package3d_urn="urn:adsk.eagle:package:32844852/2" value="SI2374DS">
 <attribute name="PARTNO" value="*"/>
 </part>
 <part name="C30" library="My-RLC" deviceset="C_" device="0603" package3d_urn="urn:adsk.eagle:package:23494015/2" value="100nF">
@@ -12458,22 +12256,15 @@ Transceiver Interface</text>
 low drive, low frequency I/O only.</text>
 <text x="173.736" y="298.958" size="1.6764" layer="97" font="vector" rot="R180" align="center" grouprefs="MICROCONTROLLER">From nRF52832
 Product Specification v1.4</text>
-<text x="155.575" y="-181.61" size="1.778" layer="208" align="center" grouprefs="BATTERY_PROTECTOR1">Overcharge = 4.325V</text>
-<text x="155.575" y="-185.42" size="1.778" layer="208" align="center" grouprefs="BATTERY_PROTECTOR1">Overdischarge = 3.000V</text>
-<wire x1="189.23" y1="-130.175" x2="182.88" y2="-130.175" width="0.1524" layer="208" grouprefs="BATTERY_PROTECTOR1"/>
-<wire x1="182.88" y1="-130.175" x2="184.15" y2="-129.54" width="0.1524" layer="208" grouprefs="BATTERY_PROTECTOR1"/>
-<wire x1="184.15" y1="-129.54" x2="184.15" y2="-130.81" width="0.1524" layer="208" grouprefs="BATTERY_PROTECTOR1"/>
-<wire x1="184.15" y1="-130.81" x2="182.88" y2="-130.175" width="0.1524" layer="208" grouprefs="BATTERY_PROTECTOR1"/>
-<text x="186.309" y="-128.397" size="1.27" layer="208" align="center" grouprefs="BATTERY_PROTECTOR1">7μA max.</text>
-<text x="79.375" y="-170.18" size="1.27" layer="208" font="vector" align="center" grouprefs="BATTERY_CHARGING_MANAGER1">I-REG [mA]
+<text x="172.085" y="-170.18" size="1.27" layer="208" font="vector" align="center" grouprefs="BATTERY_CHARGING_MANAGER1">I-REG [mA]
 = 1000V / R-PROG</text>
-<wire x1="104.775" y1="-124.46" x2="111.125" y2="-124.46" width="0.1524" layer="208" grouprefs="BATTERY_CHARGING_MANAGER1"/>
-<wire x1="111.125" y1="-124.46" x2="109.855" y2="-125.095" width="0.1524" layer="208" grouprefs="BATTERY_CHARGING_MANAGER1"/>
-<wire x1="109.855" y1="-125.095" x2="109.855" y2="-123.825" width="0.1524" layer="208" grouprefs="BATTERY_CHARGING_MANAGER1"/>
-<wire x1="109.855" y1="-123.825" x2="111.125" y2="-124.46" width="0.1524" layer="208" grouprefs="BATTERY_CHARGING_MANAGER1"/>
-<text x="108.966" y="-127.508" size="1.27" layer="208" rot="R180" align="center" grouprefs="BATTERY_CHARGING_MANAGER1">15mA to
+<wire x1="197.485" y1="-124.46" x2="203.835" y2="-124.46" width="0.1524" layer="208" grouprefs="BATTERY_CHARGING_MANAGER1"/>
+<wire x1="203.835" y1="-124.46" x2="202.565" y2="-125.095" width="0.1524" layer="208" grouprefs="BATTERY_CHARGING_MANAGER1"/>
+<wire x1="202.565" y1="-125.095" x2="202.565" y2="-123.825" width="0.1524" layer="208" grouprefs="BATTERY_CHARGING_MANAGER1"/>
+<wire x1="202.565" y1="-123.825" x2="203.835" y2="-124.46" width="0.1524" layer="208" grouprefs="BATTERY_CHARGING_MANAGER1"/>
+<text x="201.676" y="-127.508" size="1.27" layer="208" rot="R180" align="center" grouprefs="BATTERY_CHARGING_MANAGER1">15mA to
 500mA max.</text>
-<text x="229.87" y="-140.97" size="1.778" layer="208" align="center" grouprefs="BATTERY_PROTECTOR1">3.7V ~ 4.2V
+<text x="229.87" y="-140.97" size="1.778" layer="208" align="center">3.7V ~ 4.2V
 230mAh</text>
 <wire x1="251.46" y1="-124.46" x2="251.46" y2="-130.81" width="0.1524" layer="208" grouprefs="BATTERY_MONITOR1"/>
 <wire x1="251.46" y1="-130.81" x2="250.825" y2="-129.54" width="0.1524" layer="208" grouprefs="BATTERY_MONITOR1"/>
@@ -12481,8 +12272,7 @@ Product Specification v1.4</text>
 <wire x1="252.095" y1="-129.54" x2="251.46" y2="-130.81" width="0.1524" layer="208" grouprefs="BATTERY_MONITOR1"/>
 <text x="256.921" y="-127.508" size="1.27" layer="208" rot="R180" align="center" grouprefs="BATTERY_MONITOR1">2.1μA max.</text>
 <text x="266.7" y="-108.585" size="0.254" layer="201" align="center" grouprefs="BATTERY_MONITOR1"> </text>
-<text x="186.69" y="-108.585" size="0.254" layer="91" align="center" grouprefs="BATTERY_PROTECTOR1"> </text>
-<text x="48.26" y="-108.585" size="0.254" layer="91" align="center" grouprefs="BATTERY_CHARGING_MANAGER1"> </text>
+<text x="140.97" y="-108.585" size="0.254" layer="91" align="center" grouprefs="BATTERY_CHARGING_MANAGER1"> </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -12765,38 +12555,18 @@ Product Specification v1.4</text>
 <instance part="GND5" gate="1" x="368.3" y="-188.595" smashed="yes" grouprefs="BOOST_CONVERTER_(DC-DC_STEP_UP)">
 <attribute name="VALUE" x="365.76" y="-191.135" size="1.778" layer="96"/>
 </instance>
-<instance part="U5" gate="G$1" x="88.9" y="-127.635" smashed="yes" grouprefs="BATTERY_CHARGING_MANAGER1">
-<attribute name="NAME" x="82.6135" y="-116.84" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="86.36" y="-118.745" size="1.27" layer="96" align="center"/>
-<attribute name="PARTNO" x="88.9" y="-127.635" size="1.778" layer="96" display="off"/>
+<instance part="U5" gate="G$1" x="181.61" y="-127.635" smashed="yes" grouprefs="BATTERY_CHARGING_MANAGER1">
+<attribute name="NAME" x="175.3235" y="-116.84" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="179.07" y="-118.745" size="1.27" layer="96" align="center"/>
+<attribute name="PARTNO" x="181.61" y="-127.635" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R7" gate="G$1" x="66.04" y="-170.18" smashed="yes" rot="R90" grouprefs="BATTERY_CHARGING_MANAGER1">
-<attribute name="NAME" x="63.9064" y="-170.18" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="68.072" y="-170.18" size="1.27" layer="96" rot="R90" align="center"/>
-<attribute name="PARTNO" x="66.04" y="-170.18" size="1.778" layer="96" display="off"/>
+<instance part="R7" gate="G$1" x="158.75" y="-170.18" smashed="yes" rot="R90" grouprefs="BATTERY_CHARGING_MANAGER1">
+<attribute name="NAME" x="156.6164" y="-170.18" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="160.782" y="-170.18" size="1.27" layer="96" rot="R90" align="center"/>
+<attribute name="PARTNO" x="158.75" y="-170.18" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U6" gate="G$1" x="156.845" y="-140.97" smashed="yes" grouprefs="BATTERY_PROTECTOR1">
-<attribute name="NAME" x="138.557" y="-126.365" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="147.32" y="-128.27" size="1.27" layer="96" align="center"/>
-<attribute name="PARTNO" x="156.845" y="-140.97" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R8" gate="G$1" x="127" y="-182.88" smashed="yes" rot="R90" grouprefs="BATTERY_PROTECTOR1">
-<attribute name="NAME" x="124.8664" y="-182.88" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="129.032" y="-182.88" size="1.27" layer="96" rot="R90" align="center"/>
-<attribute name="PARTNO" x="127" y="-182.88" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R9" gate="G$1" x="203.2" y="-132.08" smashed="yes" rot="R180" grouprefs="BATTERY_PROTECTOR1">
-<attribute name="NAME" x="203.2" y="-129.7686" size="1.27" layer="95" rot="R180" align="center"/>
-<attribute name="VALUE" x="203.2" y="-134.1755" size="1.27" layer="96" rot="R180" align="center"/>
-<attribute name="PARTNO" x="203.2" y="-132.08" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C20" gate="G$1" x="187.96" y="-138.43" smashed="yes" grouprefs="BATTERY_PROTECTOR1">
-<attribute name="NAME" x="184.0865" y="-139.6365" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="191.0715" y="-139.7635" size="1.27" layer="96" rot="R90" align="center"/>
-<attribute name="PARTNO" x="187.96" y="-138.43" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="SUPPLY6" gate="G$1" x="-3.81" y="-99.695" smashed="yes">
-<attribute name="VALUE" x="-3.7846" y="-95.25" size="1.27" layer="96" align="center"/>
+<instance part="SUPPLY6" gate="G$1" x="88.9" y="-99.695" smashed="yes">
+<attribute name="VALUE" x="88.9254" y="-95.25" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="R15" gate="G$1" x="249.555" y="-146.05" smashed="yes" rot="R90" grouprefs="BATTERY_MONITOR1">
 <attribute name="NAME" x="247.4214" y="-146.05" size="1.27" layer="95" rot="R90" align="center"/>
@@ -12813,69 +12583,59 @@ Product Specification v1.4</text>
 <attribute name="VALUE" x="229.5525" y="-137.16" size="1.27" layer="96" align="center"/>
 <attribute name="PARTNO" x="219.075" y="-139.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="Q2" gate="G$1" x="216.535" y="-160.02" smashed="yes" rot="MR180">
-<attribute name="NAME" x="223.7105" y="-158.242" size="1.27" layer="95" rot="MR180" align="center"/>
-<attribute name="VALUE" x="226.2505" y="-160.147" size="1.27" layer="96" rot="MR180" align="center"/>
-<attribute name="PARTNO" x="216.535" y="-160.02" size="1.778" layer="96" display="off"/>
+<instance part="C30" gate="G$1" x="12.065" y="-168.91" smashed="yes" rot="MR180">
+<attribute name="NAME" x="15.8115" y="-167.386" size="1.27" layer="95" rot="MR180" align="center"/>
+<attribute name="VALUE" x="8.89" y="-167.3225" size="1.27" layer="96" rot="MR90" align="center"/>
+<attribute name="PARTNO" x="12.065" y="-168.91" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="Q3" gate="G$1" x="216.535" y="-172.72" smashed="yes">
-<attribute name="NAME" x="223.7105" y="-170.688" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="226.568" y="-172.6565" size="1.27" layer="96" align="center"/>
-<attribute name="PARTNO" x="216.535" y="-172.72" size="1.778" layer="96" display="off"/>
+<instance part="SUPPLY26" gate="G$1" x="12.065" y="-187.325" smashed="yes" rot="MR0"/>
+<instance part="SUPPLY32" gate="G$1" x="92.71" y="-187.325" smashed="yes" rot="MR0"/>
+<instance part="R10" gate="G$1" x="92.71" y="-149.225" smashed="yes" rot="MR270">
+<attribute name="NAME" x="94.8436" y="-149.225" size="1.27" layer="95" rot="MR90" align="center"/>
+<attribute name="VALUE" x="90.678" y="-149.225" size="1.27" layer="96" rot="MR90" align="center"/>
+<attribute name="PARTNO" x="92.71" y="-149.225" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="C30" gate="G$1" x="-80.645" y="-168.91" smashed="yes" rot="MR180">
-<attribute name="NAME" x="-76.8985" y="-167.386" size="1.27" layer="95" rot="MR180" align="center"/>
-<attribute name="VALUE" x="-83.82" y="-167.3225" size="1.27" layer="96" rot="MR90" align="center"/>
-<attribute name="PARTNO" x="-80.645" y="-168.91" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="R11" gate="G$1" x="21.59" y="-167.64" smashed="yes" rot="MR270">
+<attribute name="NAME" x="24.0411" y="-167.64" size="1.27" layer="95" rot="MR90" align="center"/>
+<attribute name="VALUE" x="19.558" y="-167.64" size="1.27" layer="96" rot="MR90" align="center"/>
+<attribute name="PARTNO" x="21.59" y="-167.64" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SUPPLY26" gate="G$1" x="-80.645" y="-187.325" smashed="yes" rot="MR0"/>
-<instance part="SUPPLY32" gate="G$1" x="0" y="-187.325" smashed="yes" rot="MR0"/>
-<instance part="R10" gate="G$1" x="0" y="-149.225" smashed="yes" rot="MR270">
-<attribute name="NAME" x="2.1336" y="-149.225" size="1.27" layer="95" rot="MR90" align="center"/>
-<attribute name="VALUE" x="-2.032" y="-149.225" size="1.27" layer="96" rot="MR90" align="center"/>
-<attribute name="PARTNO" x="0" y="-149.225" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="SUPPLY35" gate="G$1" x="21.59" y="-187.325" smashed="yes" rot="MR0"/>
+<instance part="R12" gate="G$1" x="84.455" y="-173.355" smashed="yes" rot="MR270">
+<attribute name="NAME" x="86.9061" y="-173.355" size="1.27" layer="95" rot="MR90" align="center"/>
+<attribute name="VALUE" x="82.4865" y="-173.609" size="1.27" layer="96" rot="MR90" align="center"/>
+<attribute name="PARTNO" x="84.455" y="-173.355" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="R11" gate="G$1" x="-71.12" y="-167.64" smashed="yes" rot="MR270">
-<attribute name="NAME" x="-68.6689" y="-167.64" size="1.27" layer="95" rot="MR90" align="center"/>
-<attribute name="VALUE" x="-73.152" y="-167.64" size="1.27" layer="96" rot="MR90" align="center"/>
-<attribute name="PARTNO" x="-71.12" y="-167.64" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="SUPPLY36" gate="G$1" x="84.455" y="-187.325" smashed="yes" rot="MR0"/>
+<instance part="C31" gate="G$1" x="74.93" y="-174.625" smashed="yes" rot="MR180">
+<attribute name="NAME" x="78.8035" y="-173.2915" size="1.27" layer="95" rot="MR0" align="center"/>
+<attribute name="VALUE" x="71.882" y="-173.4185" size="1.27" layer="96" rot="MR90" align="center"/>
+<attribute name="PARTNO" x="74.93" y="-174.625" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SUPPLY35" gate="G$1" x="-71.12" y="-187.325" smashed="yes" rot="MR0"/>
-<instance part="R12" gate="G$1" x="-8.255" y="-173.355" smashed="yes" rot="MR270">
-<attribute name="NAME" x="-5.8039" y="-173.355" size="1.27" layer="95" rot="MR90" align="center"/>
-<attribute name="VALUE" x="-10.2235" y="-173.609" size="1.27" layer="96" rot="MR90" align="center"/>
-<attribute name="PARTNO" x="-8.255" y="-173.355" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="SUPPLY37" gate="G$1" x="74.93" y="-187.325" smashed="yes" rot="MR0"/>
+<instance part="R13" gate="G$1" x="106.68" y="-135.255" smashed="yes" rot="MR90">
+<attribute name="NAME" x="109.1311" y="-135.255" size="1.27" layer="95" rot="MR90" align="center"/>
+<attribute name="VALUE" x="104.3305" y="-135.255" size="1.27" layer="96" rot="MR90" align="center"/>
+<attribute name="PARTNO" x="106.68" y="-135.255" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SUPPLY36" gate="G$1" x="-8.255" y="-187.325" smashed="yes" rot="MR0"/>
-<instance part="C31" gate="G$1" x="-17.78" y="-174.625" smashed="yes" rot="MR180">
-<attribute name="NAME" x="-13.9065" y="-173.2915" size="1.27" layer="95" rot="MR0" align="center"/>
-<attribute name="VALUE" x="-20.828" y="-173.4185" size="1.27" layer="96" rot="MR90" align="center"/>
-<attribute name="PARTNO" x="-17.78" y="-174.625" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="R17" gate="G$1" x="106.68" y="-158.115" smashed="yes" rot="MR90">
+<attribute name="NAME" x="108.8136" y="-158.115" size="1.27" layer="95" rot="MR90" align="center"/>
+<attribute name="VALUE" x="104.648" y="-158.115" size="1.27" layer="96" rot="MR90" align="center"/>
+<attribute name="PARTNO" x="106.68" y="-158.115" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SUPPLY37" gate="G$1" x="-17.78" y="-187.325" smashed="yes" rot="MR0"/>
-<instance part="R13" gate="G$1" x="13.97" y="-135.255" smashed="yes" rot="MR90">
-<attribute name="NAME" x="16.4211" y="-135.255" size="1.27" layer="95" rot="MR90" align="center"/>
-<attribute name="VALUE" x="11.6205" y="-135.255" size="1.27" layer="96" rot="MR90" align="center"/>
-<attribute name="PARTNO" x="13.97" y="-135.255" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="SUPPLY16" gate="G$1" x="106.68" y="-187.325" smashed="yes" rot="MR0"/>
+<instance part="C32" gate="G$1" x="-0.635" y="-168.91" smashed="yes" rot="MR180">
+<attribute name="NAME" x="3.1115" y="-167.386" size="1.27" layer="95" rot="MR180" align="center"/>
+<attribute name="VALUE" x="-3.81" y="-167.3225" size="1.27" layer="96" rot="MR90" align="center"/>
+<attribute name="PARTNO" x="-0.635" y="-168.91" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="R17" gate="G$1" x="13.97" y="-158.115" smashed="yes" rot="MR90">
-<attribute name="NAME" x="16.1036" y="-158.115" size="1.27" layer="95" rot="MR90" align="center"/>
-<attribute name="VALUE" x="11.938" y="-158.115" size="1.27" layer="96" rot="MR90" align="center"/>
-<attribute name="PARTNO" x="13.97" y="-158.115" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="SUPPLY21" gate="G$1" x="-0.635" y="-187.325" smashed="yes" rot="MR0"/>
+<instance part="CN1" gate="G$1" x="53.34" y="-146.685" smashed="yes" rot="MR0">
+<attribute name="NAME" x="64.77" y="-128.4605" size="1.27" layer="95" rot="MR0" align="center"/>
+<attribute name="VALUE" x="53.34" y="-130.175" size="1.27" layer="96" rot="R180" align="center"/>
+<attribute name="PARTNO" x="53.34" y="-146.685" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SUPPLY16" gate="G$1" x="13.97" y="-187.325" smashed="yes" rot="MR0"/>
-<instance part="C32" gate="G$1" x="-93.345" y="-168.91" smashed="yes" rot="MR180">
-<attribute name="NAME" x="-89.5985" y="-167.386" size="1.27" layer="95" rot="MR180" align="center"/>
-<attribute name="VALUE" x="-96.52" y="-167.3225" size="1.27" layer="96" rot="MR90" align="center"/>
-<attribute name="PARTNO" x="-93.345" y="-168.91" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="SUPPLY21" gate="G$1" x="-93.345" y="-187.325" smashed="yes" rot="MR0"/>
-<instance part="CN1" gate="G$1" x="-39.37" y="-146.685" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-27.94" y="-128.4605" size="1.27" layer="95" rot="MR0" align="center"/>
-<attribute name="VALUE" x="-39.37" y="-130.175" size="1.27" layer="96" rot="R180" align="center"/>
-<attribute name="PARTNO" x="-39.37" y="-146.685" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="SUPPLY22" gate="G$1" x="-61.595" y="-187.325" smashed="yes" rot="MR0"/>
+<instance part="SUPPLY22" gate="G$1" x="31.115" y="-187.325" smashed="yes" rot="MR0"/>
 <instance part="SUPPLY15" gate="G$1" x="368.3" y="-113.665" smashed="yes" grouprefs="BOOST_CONVERTER_(DC-DC_STEP_UP)">
 <attribute name="VALUE" x="368.3254" y="-109.855" size="1.778" layer="96" align="center"/>
 </instance>
@@ -13041,46 +12801,46 @@ Product Specification v1.4</text>
 </segment>
 <segment>
 <pinref part="C30" gate="G$1" pin="1"/>
-<wire x1="-80.645" y1="-184.785" x2="-80.645" y2="-171.45" width="0.1524" layer="91"/>
+<wire x1="12.065" y1="-184.785" x2="12.065" y2="-171.45" width="0.1524" layer="91"/>
 <pinref part="SUPPLY26" gate="G$1" pin="0V"/>
 </segment>
 <segment>
 <pinref part="SUPPLY32" gate="G$1" pin="0V"/>
-<wire x1="-21.59" y1="-156.845" x2="0" y2="-156.845" width="0.1524" layer="91"/>
-<wire x1="0" y1="-156.845" x2="0" y2="-184.785" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-156.845" x2="92.71" y2="-156.845" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="-156.845" x2="92.71" y2="-184.785" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="0" y1="-154.305" x2="0" y2="-156.845" width="0.1524" layer="91"/>
-<junction x="0" y="-156.845"/>
+<wire x1="92.71" y1="-154.305" x2="92.71" y2="-156.845" width="0.1524" layer="91"/>
+<junction x="92.71" y="-156.845"/>
 <pinref part="CN1" gate="G$1" pin="GND_A"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="SUPPLY35" gate="G$1" pin="0V"/>
-<wire x1="-71.12" y1="-184.785" x2="-71.12" y2="-172.72" width="0.1524" layer="91"/>
+<wire x1="21.59" y1="-184.785" x2="21.59" y2="-172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="SUPPLY36" gate="G$1" pin="0V"/>
-<wire x1="-8.255" y1="-184.785" x2="-8.255" y2="-178.435" width="0.1524" layer="91"/>
+<wire x1="84.455" y1="-184.785" x2="84.455" y2="-178.435" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C31" gate="G$1" pin="1"/>
 <pinref part="SUPPLY37" gate="G$1" pin="0V"/>
-<wire x1="-17.78" y1="-184.785" x2="-17.78" y2="-177.165" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="-184.785" x2="74.93" y2="-177.165" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="SUPPLY16" gate="G$1" pin="0V"/>
-<wire x1="13.97" y1="-184.785" x2="13.97" y2="-163.195" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-184.785" x2="106.68" y2="-163.195" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C32" gate="G$1" pin="1"/>
 <pinref part="SUPPLY21" gate="G$1" pin="0V"/>
-<wire x1="-93.345" y1="-184.785" x2="-93.345" y2="-171.45" width="0.1524" layer="91"/>
+<wire x1="-0.635" y1="-184.785" x2="-0.635" y2="-171.45" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-57.15" y1="-156.845" x2="-61.595" y2="-156.845" width="0.1524" layer="91"/>
-<wire x1="-61.595" y1="-156.845" x2="-61.595" y2="-184.785" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-156.845" x2="31.115" y2="-156.845" width="0.1524" layer="91"/>
+<wire x1="31.115" y1="-156.845" x2="31.115" y2="-184.785" width="0.1524" layer="91"/>
 <pinref part="CN1" gate="G$1" pin="GND_B"/>
 <pinref part="SUPPLY22" gate="G$1" pin="0V"/>
 </segment>
@@ -13585,92 +13345,37 @@ Product Specification v1.4</text>
 <net name="0V1" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="-175.26" x2="66.04" y2="-190.5" width="0.1524" layer="91" grouprefs="BATTERY_CHARGING_MANAGER1"/>
+<wire x1="158.75" y1="-175.26" x2="158.75" y2="-190.5" width="0.1524" layer="91" grouprefs="BATTERY_CHARGING_MANAGER1"/>
 <pinref part="U5" gate="G$1" pin="VSS"/>
-<wire x1="92.71" y1="-161.925" x2="92.71" y2="-190.5" width="0.1524" layer="91" grouprefs="BATTERY_CHARGING_MANAGER1"/>
-<wire x1="92.71" y1="-190.5" x2="66.04" y2="-190.5" width="0.1524" layer="91" grouprefs="BATTERY_CHARGING_MANAGER1"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="127" y1="-190.5" x2="127" y2="-187.96" width="0.1524" layer="91"/>
-<junction x="127" y="-190.5"/>
-<wire x1="92.71" y1="-190.5" x2="127" y2="-190.5" width="0.1524" layer="91"/>
-<junction x="92.71" y="-190.5" grouprefs="BATTERY_CHARGING_MANAGER1"/>
-<wire x1="219.075" y1="-177.8" x2="219.075" y2="-190.5" width="0.1524" layer="91"/>
-<wire x1="219.075" y1="-190.5" x2="127" y2="-190.5" width="0.1524" layer="91"/>
-<junction x="219.075" y="-190.5"/>
-<wire x1="249.555" y1="-190.5" x2="219.075" y2="-190.5" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-161.925" x2="185.42" y2="-190.5" width="0.1524" layer="91" grouprefs="BATTERY_CHARGING_MANAGER1"/>
+<wire x1="185.42" y1="-190.5" x2="158.75" y2="-190.5" width="0.1524" layer="91" grouprefs="BATTERY_CHARGING_MANAGER1"/>
+<junction x="185.42" y="-190.5" grouprefs="BATTERY_CHARGING_MANAGER1"/>
 <pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="249.555" y1="-190.5" x2="219.075" y2="-190.5" width="0.1524" layer="91"/>
+<wire x1="219.075" y1="-190.5" x2="185.42" y2="-190.5" width="0.1524" layer="91"/>
 <wire x1="249.555" y1="-166.37" x2="249.555" y2="-190.5" width="0.1524" layer="91" grouprefs="BATTERY_MONITOR1"/>
-<wire x1="66.04" y1="-195.58" x2="66.04" y2="-190.5" width="0.1524" layer="91"/>
-<junction x="66.04" y="-190.5"/>
-<pinref part="Q3" gate="G$1" pin="S"/>
+<wire x1="158.75" y1="-195.58" x2="158.75" y2="-190.5" width="0.1524" layer="91"/>
+<junction x="158.75" y="-190.5"/>
+<pinref part="CN2" gate="G$1" pin="GND"/>
+<wire x1="219.075" y1="-146.05" x2="219.075" y2="-190.5" width="0.1524" layer="91"/>
+<junction x="219.075" y="-190.5"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="PROG"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="-150.495" x2="66.04" y2="-150.495" width="0.1524" layer="91" grouprefs="BATTERY_CHARGING_MANAGER1"/>
-<wire x1="66.04" y1="-150.495" x2="66.04" y2="-165.1" width="0.1524" layer="91" grouprefs="BATTERY_CHARGING_MANAGER1"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="VM"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="127" y1="-177.8" x2="127" y2="-175.26" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<wire x1="127" y1="-175.26" x2="132.715" y2="-175.26" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="VDD"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="178.435" y1="-132.08" x2="187.96" y2="-132.08" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="-132.08" x2="198.12" y2="-132.08" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<wire x1="187.96" y1="-135.89" x2="187.96" y2="-132.08" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<junction x="187.96" y="-132.08" grouprefs="BATTERY_PROTECTOR1"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="C20" gate="G$1" pin="2"/>
-<pinref part="U6" gate="G$1" pin="VSS"/>
-<wire x1="187.96" y1="-143.51" x2="187.96" y2="-148.59" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<wire x1="187.96" y1="-148.59" x2="178.435" y2="-148.59" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<wire x1="219.075" y1="-146.05" x2="219.075" y2="-148.59" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<wire x1="219.075" y1="-148.59" x2="187.96" y2="-148.59" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<junction x="187.96" y="-148.59" grouprefs="BATTERY_PROTECTOR1"/>
-<wire x1="219.075" y1="-154.94" x2="219.075" y2="-148.59" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<junction x="219.075" y="-148.59" grouprefs="BATTERY_PROTECTOR1"/>
-<pinref part="CN2" gate="G$1" pin="GND"/>
-<pinref part="Q2" gate="G$1" pin="S"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="DO"/>
-<wire x1="212.725" y1="-157.48" x2="178.435" y2="-157.48" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<pinref part="Q2" gate="G$1" pin="G"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="CO"/>
-<wire x1="212.725" y1="-175.26" x2="178.435" y2="-175.26" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<pinref part="Q3" gate="G$1" pin="G"/>
+<wire x1="168.91" y1="-150.495" x2="158.75" y2="-150.495" width="0.1524" layer="91" grouprefs="BATTERY_CHARGING_MANAGER1"/>
+<wire x1="158.75" y1="-150.495" x2="158.75" y2="-165.1" width="0.1524" layer="91" grouprefs="BATTERY_CHARGING_MANAGER1"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="219.075" y1="-132.08" x2="208.28" y2="-132.08" width="0.15" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<wire x1="219.075" y1="-134.62" x2="219.075" y2="-132.08" width="0.15" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
+<wire x1="219.075" y1="-134.62" x2="219.075" y2="-132.08" width="0.15" layer="91"/>
 <pinref part="U5" gate="G$1" pin="VBAT"/>
-<wire x1="107.95" y1="-122.555" x2="219.075" y2="-122.555" width="0.1524" layer="91"/>
-<wire x1="219.075" y1="-122.555" x2="219.075" y2="-132.08" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<junction x="219.075" y="-132.08" grouprefs="BATTERY_PROTECTOR1"/>
-<junction x="219.075" y="-122.555" grouprefs="BATTERY_PROTECTOR1"/>
+<wire x1="200.66" y1="-122.555" x2="219.075" y2="-122.555" width="0.1524" layer="91"/>
+<wire x1="219.075" y1="-122.555" x2="219.075" y2="-132.08" width="0.1524" layer="91"/>
+<junction x="219.075" y="-122.555"/>
 <wire x1="249.555" y1="-122.555" x2="219.075" y2="-122.555" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="249.555" y1="-140.97" x2="249.555" y2="-122.555" width="0.1524" layer="91" grouprefs="BATTERY_MONITOR1"/>
@@ -13693,13 +13398,6 @@ Product Specification v1.4</text>
 <junction x="299.72" y="-122.555" grouprefs="BOOST_CONVERTER_(DC-DC_STEP_UP)"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<wire x1="219.075" y1="-165.1" x2="219.075" y2="-167.64" width="0.1524" layer="91" grouprefs="BATTERY_PROTECTOR1"/>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<pinref part="Q3" gate="G$1" pin="D"/>
-</segment>
-</net>
 <net name="ADC_BATTERY_VOLTAGE" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
@@ -13715,73 +13413,73 @@ Product Specification v1.4</text>
 <segment>
 <pinref part="U5" gate="G$1" pin="VDD"/>
 <pinref part="SUPPLY6" gate="G$1" pin="5V"/>
-<wire x1="-3.81" y1="-102.235" x2="-3.81" y2="-122.555" width="0.1524" layer="91"/>
-<wire x1="-3.81" y1="-122.555" x2="13.97" y2="-122.555" width="0.1524" layer="91"/>
-<wire x1="13.97" y1="-122.555" x2="76.2" y2="-122.555" width="0.1524" layer="91"/>
-<wire x1="-80.645" y1="-133.985" x2="-93.345" y2="-133.985" width="0.1524" layer="91"/>
-<junction x="-80.645" y="-133.985"/>
+<wire x1="88.9" y1="-102.235" x2="88.9" y2="-122.555" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-122.555" x2="106.68" y2="-122.555" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-122.555" x2="168.91" y2="-122.555" width="0.1524" layer="91"/>
+<wire x1="12.065" y1="-133.985" x2="-0.635" y2="-133.985" width="0.1524" layer="91"/>
+<junction x="12.065" y="-133.985"/>
 <pinref part="C30" gate="G$1" pin="2"/>
-<wire x1="-80.645" y1="-163.83" x2="-80.645" y2="-133.985" width="0.1524" layer="91"/>
-<junction x="-80.645" y="-133.985"/>
-<wire x1="-80.645" y1="-133.985" x2="-80.645" y2="-122.555" width="0.1524" layer="91"/>
-<wire x1="-57.15" y1="-133.985" x2="-80.645" y2="-133.985" width="0.1524" layer="91"/>
-<junction x="-80.645" y="-133.985"/>
-<wire x1="-21.59" y1="-133.985" x2="-3.81" y2="-133.985" width="0.1524" layer="91"/>
-<wire x1="-3.81" y1="-133.985" x2="-3.81" y2="-122.555" width="0.1524" layer="91"/>
+<wire x1="12.065" y1="-163.83" x2="12.065" y2="-133.985" width="0.1524" layer="91"/>
+<junction x="12.065" y="-133.985"/>
+<wire x1="12.065" y1="-133.985" x2="12.065" y2="-122.555" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-133.985" x2="12.065" y2="-133.985" width="0.1524" layer="91"/>
+<junction x="12.065" y="-133.985"/>
+<wire x1="71.12" y1="-133.985" x2="88.9" y2="-133.985" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-133.985" x2="88.9" y2="-122.555" width="0.1524" layer="91"/>
 <pinref part="C32" gate="G$1" pin="2"/>
-<wire x1="-93.345" y1="-163.83" x2="-93.345" y2="-133.985" width="0.1524" layer="91"/>
-<wire x1="-80.645" y1="-122.555" x2="-3.81" y2="-122.555" width="0.1524" layer="91"/>
-<junction x="-3.81" y="-122.555"/>
+<wire x1="-0.635" y1="-163.83" x2="-0.635" y2="-133.985" width="0.1524" layer="91"/>
+<wire x1="12.065" y1="-122.555" x2="88.9" y2="-122.555" width="0.1524" layer="91"/>
+<junction x="88.9" y="-122.555"/>
 <pinref part="CN1" gate="G$1" pin="VBUS_B"/>
 <pinref part="CN1" gate="G$1" pin="VBUS_A"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="13.97" y1="-130.175" x2="13.97" y2="-122.555" width="0.1524" layer="91"/>
-<junction x="13.97" y="-122.555"/>
+<wire x1="106.68" y1="-130.175" x2="106.68" y2="-122.555" width="0.1524" layer="91"/>
+<junction x="106.68" y="-122.555"/>
 </segment>
 </net>
 <net name="GPIO_BATTERY_CHARGING_STATUS" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="STAT"/>
-<wire x1="76.2" y1="-146.685" x2="74.295" y2="-146.685" width="0.1524" layer="91" grouprefs="BATTERY_CHARGING_MANAGER1"/>
-<label x="74.295" y="-146.685" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="BATTERY_CHARGING_MANAGER1"/>
+<wire x1="168.91" y1="-146.685" x2="167.005" y2="-146.685" width="0.1524" layer="91" grouprefs="BATTERY_CHARGING_MANAGER1"/>
+<label x="167.005" y="-146.685" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="BATTERY_CHARGING_MANAGER1"/>
 </segment>
 </net>
 <net name="GPIO_USB_DETECT" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="13.97" y1="-153.035" x2="13.97" y2="-146.685" width="0.1524" layer="91"/>
-<wire x1="13.97" y1="-146.685" x2="13.97" y2="-140.335" width="0.1524" layer="91"/>
-<wire x1="13.97" y1="-146.685" x2="16.51" y2="-146.685" width="0.1524" layer="91"/>
-<junction x="13.97" y="-146.685"/>
-<label x="16.51" y="-146.685" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="106.68" y1="-153.035" x2="106.68" y2="-146.685" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-146.685" x2="106.68" y2="-140.335" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-146.685" x2="109.22" y2="-146.685" width="0.1524" layer="91"/>
+<junction x="106.68" y="-146.685"/>
+<label x="109.22" y="-146.685" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="-21.59" y1="-141.605" x2="0" y2="-141.605" width="0.1524" layer="91"/>
-<wire x1="0" y1="-141.605" x2="0" y2="-144.145" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-141.605" x2="92.71" y2="-141.605" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="-141.605" x2="92.71" y2="-144.145" width="0.1524" layer="91"/>
 <pinref part="CN1" gate="G$1" pin="CC1"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="-57.15" y1="-149.225" x2="-71.12" y2="-149.225" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="-149.225" x2="-71.12" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-149.225" x2="21.59" y2="-149.225" width="0.1524" layer="91"/>
+<wire x1="21.59" y1="-149.225" x2="21.59" y2="-162.56" width="0.1524" layer="91"/>
 <pinref part="CN1" gate="G$1" pin="CC2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="-21.59" y1="-161.925" x2="-17.78" y2="-161.925" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="-161.925" x2="-8.255" y2="-161.925" width="0.1524" layer="91"/>
-<wire x1="-8.255" y1="-161.925" x2="-8.255" y2="-168.275" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-161.925" x2="74.93" y2="-161.925" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="-161.925" x2="84.455" y2="-161.925" width="0.1524" layer="91"/>
+<wire x1="84.455" y1="-161.925" x2="84.455" y2="-168.275" width="0.1524" layer="91"/>
 <pinref part="C31" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="-169.545" x2="-17.78" y2="-161.925" width="0.1524" layer="91"/>
-<junction x="-17.78" y="-161.925"/>
+<wire x1="74.93" y1="-169.545" x2="74.93" y2="-161.925" width="0.1524" layer="91"/>
+<junction x="74.93" y="-161.925"/>
 <pinref part="CN1" gate="G$1" pin="SHIELD"/>
 </segment>
 </net>
